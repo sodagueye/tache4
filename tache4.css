@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: white;
+    height: 100px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+   list-style: none;
+   padding: 30px;
+   align-items: center;
+   justify-content: center;
+}
+nav ul li a{
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 30px;
+    justify-content: space-evenly;
+  }
+.formation{
+  background-image: url('image/img.jpg');
+  height: 70vh;
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+.hend p{
+color: white;
+font-size: 16px;
+text-align: center;
+padding-top: 30px;
+}
+.logo img{
+  height: 90px;
+  width:15%;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+.logo{
+display: flex;
+justify-content: center;
+}
+ .ton{
+  color: white;
+  }
+ .formation .ton  h4{
+   background-color: rgb(65, 64, 64);
+    height: 30px;
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+   }
+   /* .samagrp{
+    height: 350px;
+   } */
+   /* .sama {
+    display: flex;
+   justify-content: space-around;
+   width: 100%;
+   height: 100%;
+   margin: 30px;
+} */
+   .sama img{
+    border-radius: 100%;
+    border: 2px solid #118286;
+    height: 60px;
+    width: 60px;
+    margin-top: 60px;
+    padding: 20px;
+   }
+   .section3{
+    height: 200px; 
+    background-color: rgb(168, 162, 162);
+   }
+  
+  .BA{
+    text-align: center;
+    padding-top: 30px;
+  }
+ .program{
+    display: flex;
+     padding-top: 40px;
+     text-align: center;
+    }
+ .program p{
+  margin-left: 150px;
+  font-size: 15px;
+ }
+ .imgroup{
+  width: 100%;
+ /* height:  400px; */
+} 
+.photo{
+ display: flex;
+}
+.photo1{
+  display: flex; 
+  margin-top: -4px;
+}
+.image3 img{
+  height: 250px;
+  width: 337px;
+}
+ .image4 img{
+  height:  250px;
+  width: 337px;
+ }
+ .image5 img{
+  height:  250px;
+  width: 337px;
+ }
+ .image7 img{
+ height:  250px;
+  width: 340px; 
+   object-fit: cover; 
+
+ }
+ .image8 img{
+  height:  250px;
+  width: 337px;
+ }
+ .image10 img{
+  height:  250px;
+  width: 337px;
+ }
+ .image11 img{
+  height: 250px;
+  width: 337px;
+ }
+ .canva img{
+  height:  250px;
+  width: 337px;
+ 
+ }
+.sect{
+  height: 700px;
+}
+.do{
+  text-align: center;
+  padding-top: 300px;
+}
+.p2 p{
+  text-align: center;
+  margin-left: -20px;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.skills h2{
+  font-weight: 40px;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  font-size: 16px;
+
+}
+.progress-bar{
+  background-color: #959595;
+   width: 400px;
+   height: 10px;
+   border-radius: 5px;
+}
+.progress-bar div{
+ height: 10px; 
+ border-radius: 5px;
+ width: 100%;
+ background-color: #A5C0AD ;
+}
+ .progress-bar div span{
+ height: 40px; 
+ width: 10px;
+ margin-top: -30px;
+ margin-right: -170px;
+
+} 
+ span{
+  position: relative;
+ bottom: 20px;
+ left: 350px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.flex .skills{
+ margin: 30px; 
+}
+.droite {
+  display: flex; 
+  justify-content: center;
+}
+.droite .skills{
+  margin: 30px; 
+}
+.sans{
+  padding-top: 20px;
+}
+
+.avatar{
+   height: 700px; 
+background-color: #A5C0AD;
+}
+.team h1 {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 80px;
+  color: white;
+  }
+.p3 p{
+  text-align: center;
+  font-size: 18px;
+  margin-left: -20px;
+  color: white;
+  margin-top: 30px;
+}
+.lesavatar{
+  display: flex;
+  margin: 20px 0;
+  padding-top: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.lesavatar :hover{
+  transform: scale(1.1);
+}
+.image9 img{
+  height: 300px;
+  width: 300px;
+  margin: 15px;
+}
+.image2 img{
+  height: 300px;
+  width: 300px;
+  margin: 15px;
+  
+}
+.image1 img{
+  height: 300px;
+  width: 300px;
+  margin: 15px;
+  
+}
+.image12 img{
+  height: 300px;
+  width: 300px;
+  margin: 15px;
+  }
+.page p{
+ color:black;
+  background-color:  white;
+  height: 50px;
+  width: 91%;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: -20px;
+  padding-top: 30px;
+ 
+  
+  
+  } 
+  .dernier{
+    height: 400px;
+  }
+  .bak {
+    display: flex;
+justify-content: center;
+  }
+  .bak img{
+    height: 60px;
+  width: 130px;
+  margin-top: 80px;
+  }
+  .strong p{
+    text-align: center;
+   padding-top: 70px;
+   margin-left: -5px;
+  }
+ .blandit{
+ padding-top: 30px;
+ font-size: 15px;
+ text-align: center;
+}
+ .footer{
+  height: 400px;
+  background-color: rgba(196, 196, 196, 0.35);
+ }
+ .dis{
+  display: flex;
+ text-align: center;
+justify-content: space-around;
+  font-size: 15px;
+  padding-top: 30px;
+
+  }
+.info h1{
+  text-align: center;
+  font-size: 15px;
+  padding-top: 40px;
+}
+.suivre{
+  margin-left: 120px;
+}
+.contact{
+  text-align: center;
+  font-size: 10px;
+  padding-top: 30px;
+}
+.iconegroupe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.fa-twitter{
+  margin: 30px;
+}
+
+
+
+
+
+
+
+
