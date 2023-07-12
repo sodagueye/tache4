@@ -137,12 +137,12 @@ justify-content: center;
   width: 337px;
  
  }
-.sect{
+/* .sect{
   height: 700px;
-}
+} */
 .do{
   text-align: center;
-  padding-top: 300px;
+  padding-top: 100px;
 }
 .p2 p{
   text-align: center;
@@ -201,13 +201,13 @@ justify-content: center;
 }
 
 .avatar{
-   height: 700px; 
-background-color: #A5C0AD;
+    height: 600px; 
+   background-color: #A5C0AD;
 }
 .team h1 {
   text-align: center;
   font-size: 18px;
-  padding-top: 80px;
+  padding-top: 70px;
   color: white;
   }
 .p3 p{
@@ -220,7 +220,7 @@ background-color: #A5C0AD;
 .lesavatar{
   display: flex;
   margin: 20px 0;
-  padding-top: 80px;
+  /* padding-top: 50px; */
   align-items: center;
   justify-content: center;
 }
@@ -258,10 +258,7 @@ background-color: #A5C0AD;
   margin-left: 15px;
   margin-top: -20px;
   padding-top: 30px;
- 
-  
-  
-  } 
+ } 
   .dernier{
     height: 400px;
   }
@@ -276,44 +273,36 @@ justify-content: center;
   }
   .strong p{
     text-align: center;
-   padding-top: 70px;
+   padding-top: 50px;
    margin-left: -5px;
   }
  .blandit{
- padding-top: 30px;
- font-size: 15px;
+ margin-top: 30px;
+ font-size: 18px;
  text-align: center;
+ padding: 10px;
 }
  .footer{
-  height: 400px;
+   /* height: 300px;  */
   background-color: rgba(196, 196, 196, 0.35);
  }
- .dis{
-  display: flex;
- text-align: center;
-justify-content: space-around;
-  font-size: 15px;
-  padding-top: 30px;
-
-  }
-.info h1{
+ .info h1{
   text-align: center;
   font-size: 15px;
   padding-top: 40px;
 }
-.suivre{
-  margin-left: 120px;
-}
-.contact{
-  text-align: center;
-  font-size: 10px;
-  padding-top: 30px;
-}
-.iconegroupe{
+.somme{
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  margin-top: 30px;
+  justify-content: space-evenly;
+  font-size: 18px;
+   /* margin: 15px;  */
+ }
+.langing{
+  display: flex;
+   align-items: center;
+  justify-content: center; 
 }
 .fa-twitter{
   margin: 30px;
