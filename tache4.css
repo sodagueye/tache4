@@ -73,6 +73,15 @@ justify-content: center;
     margin-top: 60px;
     padding: 20px;
    }
+   .sama .odio {
+    position: relative;
+    right: 35px;
+     
+    }
+    .design{
+      position: relative;
+      left: 55px;
+     }
    .section3{
     height: 200px; 
     background-color: rgb(168, 162, 162);
